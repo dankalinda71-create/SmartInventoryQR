@@ -17,7 +17,7 @@ def generate_qr_codes():
     connection.close()
 
     if not products:
-        print("Aucun produit trouvé dans la base de données A.")
+        print("Aucun produit trouvé dans la base de données.... A.")
         return
 
     for(product_id,) in products:
